@@ -1,6 +1,7 @@
 name: studio-export-fix-ci
 
 on:
+  workflow_dispatch:
   push:
     branches: [main, nightly]
     paths:
