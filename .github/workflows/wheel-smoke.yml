@@ -8,6 +8,7 @@
 name: Wheel CI
 
 on:
+  workflow_dispatch:
   pull_request:
     paths:
       - 'pyproject.toml'
